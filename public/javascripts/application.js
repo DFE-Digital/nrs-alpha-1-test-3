@@ -7,4 +7,11 @@ if (window.console && window.console.info) {
 
 $(document).ready(function () {
   window.GOVUKFrontend.initAll()
+
 })
+
+function save(index){
+  localStorage.clear();
+  localStorage.removeItem('user');
+  localStorage.setItem('user', JSON.stringify(index-1));
+}

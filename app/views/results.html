@@ -60,54 +60,26 @@
           </fieldset>
         </div>
         <div class="govuk-grid-column-three-quarters">
+          {% for job in data %}
+
           <article class="govuk-!-margin-bottom-9">
             <h2 class="govuk-heading-l">
-              <a href="./job1/details">A job</a>
+              <a onclick="save({{loop.index}})" href="./details">{{- job.name | safe }}</a>
             </h2>
-            <p class="govuk-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="govuk-body">{{- job.description | safe }}</p>
             <ul class="govuk-list">
-              <li>there are 167 jobs near Oldham
+              <li>there are&nbsp;{{- job.jobCount | safe }} jobs near Oldham
               </li>
               <li>
-                average salary is £10,000
+                average salary is &pound;{{- job.salary | safe }}
               </li>
               <li>
-                you could work 35-40 hours per week</li>
+                you could work&nbsp;{{- job.hours | safe }} hours per week</li>
             </ul>
-            <a class="govuk-button" href="./job1/routes">Retrain to do this job</a>
+            <a onclick="save({{loop.index}})" class="govuk-button" href="./routes">Retrain to do this job</a>
           </article>
-          <article class="govuk-!-margin-bottom-9">
-            <h2 class="govuk-heading-l">
-              <a href="./job2/details">Another job</a>
-            </h2>
-            <p class="govuk-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul class="govuk-list">
-              <li>there are 31 jobs near Oldham
-              </li>
-              <li>
-                average salary is £10,000
-              </li>
-              <li>
-                you could work 35-40 hours per week</li>
-            </ul>
-            <a class="govuk-button" href="./job2/routes">Retrain to do this job</a>
-          </article>
-          <article class="govuk-!-margin-bottom-9">
-            <h2 class="govuk-heading-l">
-              <a href="./job3/details">One more job</a>
-            </h2>
-            <p class="govuk-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul class="govuk-list">
-              <li>there are 55 jobs near Oldham
-              </li>
-              <li>
-                average salary is £10,000
-              </li>
-              <li>
-                you could work 35-40 hours per week</li>
-            </ul>
-            <a class="govuk-button" href="./job3/routes">Retrain to do this job</a>
-          </article>
+
+          {%- endfor %}
           {# Only show on last entry #}
           <a href="#" class="govuk-link">View more matches</a>
 

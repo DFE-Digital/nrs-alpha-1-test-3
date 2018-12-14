@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "name": "Office manager",
+      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
+      "jobCount": 55,
+      "salary": 15000,
+      "traineeSalary": 15000,
+      "traineeSalary": 10000,
+      "hours": "35-40",
+      "lifestyle": "Monday to friday",
+      "detail": "",
+      "coursesRequired": ["Maths", "Leadership", "English"],
+      "delivery": [
+        {
+          "title": "Online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "6 months",
+          "cost": "£200 (funding available)"
+        },
+        {
+          "title": "Mostly online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "9 weeks",
+          "cost": "£400 (funding available)"
+        },
+        {
+          "title": "Classroom",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "18 months",
+          "cost": "£1400 (funding available)"
+        }
+      ]
+    },
+    {
+      "name": "Electrician",
+      "jobCount": 55,
+      "salary": 15000,
+      "traineeSalary": 10000,
+      "hours": "35-40",
+      "lifestyle": "Monday to friday",
+      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
+      "functional": "Maths & English Cs at GCSE, basic IT skills",
+      "experience": "2016 - today: Caretaker, Hanley Road Primary Care Trust.\n2012 - 2016: Part time caretaker, Hanley Road Primary Care Trust.\n2009 - 2012: Caretaker team leader, Victoria Leisure Centre.\n2001 - 2008: Caretaker, Victoria Leisure Centre, London Borough of Walford Council.\n1993 - 2001: Full time handyman: Ashmount Primary School.\n1990 - 1993: Part time handyman Ashmount Primary School",
+      "soft": "Good communicator, used to working in teams. Has taken naturally to leadership opportunities, such as when asked to mentor new joiners in current workplace. Resilient employee, keeps going despite setbacks. Highly reliable employee with consistent performance record.",
+      "delivery": [
+        {
+          "title": "Online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "6 months",
+          "cost": "£200 (funding available)"
+        },
+        {
+          "title": "Mostly online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "9 weeks",
+          "cost": "£400 (funding available)"
+        },
+        {
+          "title": "Classroom",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "18 months",
+          "cost": "£1400 (funding available)"
+        }
+      ]
+    },
+    {
+      "name": "IT technician",
+      "jobCount": 55,
+      "salary": 15000,
+      "traineeSalary": 11000,
+      "hours": "35-40",
+      "lifestyle": "Monday to friday",
+      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
+      "functional": "Maths & English Cs at GCSE, basic IT skills",
+      "experience": "2016 - today: Caretaker, Hanley Road Primary Care Trust.\n2012 - 2016: Part time caretaker, Hanley Road Primary Care Trust.\n2009 - 2012: Caretaker team leader, Victoria Leisure Centre.\n2001 - 2008: Caretaker, Victoria Leisure Centre, London Borough of Walford Council.\n1993 - 2001: Full time handyman: Ashmount Primary School.\n1990 - 1993: Part time handyman Ashmount Primary School",
+      "soft": "Good communicator, used to working in teams. Has taken naturally to leadership opportunities, such as when asked to mentor new joiners in current workplace. Resilient employee, keeps going despite setbacks. Highly reliable employee with consistent performance record.",
+      "delivery": [
+        {
+          "title": "Online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "6 months",
+          "cost": "£200 (funding available)"
+        },
+        {
+          "title": "Mostly online",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "9 weeks",
+          "cost": "£400 (funding available)"
+        },
+        {
+          "title": "Classroom",
+          "description": "Study in your own time either at home or at a local library",
+          "duration": "18 months",
+          "cost": "£1400 (funding available)"
+        }
+      ]
+    }
+  ]
+}
