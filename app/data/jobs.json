@@ -5,94 +5,142 @@
       "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
       "salary": 15000,
-      "traineeSalary": 15000,
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
-      "detail": "",
-      "coursesRequired": ["Maths", "Leadership", "English"],
+      "courses": ["Maths Level 3", "English", "Leadership"],
+      "whatyoulldo": "You could work for the government or local authorities, in the private sector for real estate companies, house builders, supermarkets or utility companies, or for environmental or conservation bodies.",
+      "whatyoulllearn": [
+        "preparing reports for internal and external publications",
+        "recording minutes at meetings",
+        "building and managing technical libraries, filing systems and databases",
+        "drawing up plans using computer aided design software",
+        "carrying out data surveys, like traffic impact assessments",
+        "supplying information and data to planners for applications",
+        "recording the progress and outcomes of planning applications",
+        "organising public meetings",
+        "answering enquiries about application procedure"
+      ],
       "delivery": [
         {
           "title": "Online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "6 months",
-          "cost": "£200 (funding available)"
+          "cost": "£200 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Mostly online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "9 weeks",
-          "cost": "£400 (funding available)"
+          "cost": "£400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Classroom",
           "description": "Study in your own time either at home or at a local library",
           "duration": "18 months",
-          "cost": "£1400 (funding available)"
+          "cost": "£1400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         }
       ]
     },
     {
       "name": "Electrician",
+      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
       "salary": 15000,
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
-      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
-      "functional": "Maths & English Cs at GCSE, basic IT skills",
-      "experience": "2016 - today: Caretaker, Hanley Road Primary Care Trust.\n2012 - 2016: Part time caretaker, Hanley Road Primary Care Trust.\n2009 - 2012: Caretaker team leader, Victoria Leisure Centre.\n2001 - 2008: Caretaker, Victoria Leisure Centre, London Borough of Walford Council.\n1993 - 2001: Full time handyman: Ashmount Primary School.\n1990 - 1993: Part time handyman Ashmount Primary School",
-      "soft": "Good communicator, used to working in teams. Has taken naturally to leadership opportunities, such as when asked to mentor new joiners in current workplace. Resilient employee, keeps going despite setbacks. Highly reliable employee with consistent performance record.",
+      "courses": ["Maths Level 3", "English", "Leadership"],
+      "whatyoulldo": "You could work for the government or local authorities, in the private sector for real estate companies, house builders, supermarkets or utility companies, or for environmental or conservation bodies.",
+      "whatyoulllearn": [
+        "preparing reports for internal and external publications",
+        "recording minutes at meetings",
+        "building and managing technical libraries, filing systems and databases",
+        "drawing up plans using computer aided design software",
+        "carrying out data surveys, like traffic impact assessments",
+        "supplying information and data to planners for applications",
+        "recording the progress and outcomes of planning applications",
+        "organising public meetings",
+        "answering enquiries about application procedure."
+      ],
       "delivery": [
         {
           "title": "Online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "6 months",
-          "cost": "£200 (funding available)"
+          "cost": "£200 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Mostly online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "9 weeks",
-          "cost": "£400 (funding available)"
+          "cost": "£400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Classroom",
           "description": "Study in your own time either at home or at a local library",
           "duration": "18 months",
-          "cost": "£1400 (funding available)"
+          "cost": "£1400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         }
       ]
     },
     {
       "name": "IT technician",
+      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
       "salary": 15000,
       "traineeSalary": 11000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
-      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
-      "functional": "Maths & English Cs at GCSE, basic IT skills",
-      "experience": "2016 - today: Caretaker, Hanley Road Primary Care Trust.\n2012 - 2016: Part time caretaker, Hanley Road Primary Care Trust.\n2009 - 2012: Caretaker team leader, Victoria Leisure Centre.\n2001 - 2008: Caretaker, Victoria Leisure Centre, London Borough of Walford Council.\n1993 - 2001: Full time handyman: Ashmount Primary School.\n1990 - 1993: Part time handyman Ashmount Primary School",
-      "soft": "Good communicator, used to working in teams. Has taken naturally to leadership opportunities, such as when asked to mentor new joiners in current workplace. Resilient employee, keeps going despite setbacks. Highly reliable employee with consistent performance record.",
+      "courses": ["Maths Level 3", "English", "Leadership"],
+      "whatyoulldo": "",
+      "whatyoulllearn": [
+        "preparing reports for internal and external publications",
+        "recording minutes at meetings",
+        "building and managing technical libraries, filing systems and databases",
+        "drawing up plans using computer aided design software",
+        "carrying out data surveys, like traffic impact assessments",
+        "supplying information and data to planners for applications",
+        "recording the progress and outcomes of planning applications",
+        "organising public meetings",
+        "answering enquiries about application procedure."
+      ],
       "delivery": [
         {
           "title": "Online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "6 months",
-          "cost": "£200 (funding available)"
+          "cost": "£200 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Mostly online",
           "description": "Study in your own time either at home or at a local library",
           "duration": "9 weeks",
-          "cost": "£400 (funding available)"
+          "cost": "£400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         },
         {
           "title": "Classroom",
           "description": "Study in your own time either at home or at a local library",
           "duration": "18 months",
-          "cost": "£1400 (funding available)"
+          "cost": "£1400 (funding available)",
+          "completion": "99%",
+          "employability": "100 learners got employed after this training"
         }
       ]
     }

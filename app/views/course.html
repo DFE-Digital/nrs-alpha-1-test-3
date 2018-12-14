@@ -49,7 +49,7 @@ endblock %} {% block content %}
           </p>
           <h3 class="govuk-heading-m">As a trainee you’ll learn:</h3>
           <ul id="whatyoulllearn" class="govuk-list">
-            
+
           </ul>
         </div>
       </div>
@@ -121,15 +121,6 @@ endblock %} {% block content %}
   Array.from(traineeSalaries).map( traineeSalary => {
     traineeSalary.innerText = data[index].traineeSalary
   })
-
-  var hours = document.getElementById('hours');
-  hours.innerText = data[index].hours
-
-  var lifestyle = document.getElementById('lifestyle');
-  lifestyle.innerText = data[index].lifestyle
-
-  var whatyoulldo = document.getElementById('whatyoulldo');
-  whatyoulldo.innerText = data[index].whatyoulldo
 
   var whatyoulllearn = document.getElementById('whatyoulllearn');
   data[index].whatyoulllearn.map(learning => {
