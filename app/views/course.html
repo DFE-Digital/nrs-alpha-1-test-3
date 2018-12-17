@@ -11,10 +11,8 @@ endblock %} {% block content %}
       <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-6">
         Trainee <span id="title">town planning assistant</span>
       </h1>
-      <span id="description" class="govuk-caption-xl govuk-!-margin-bottom-9"
-        >Working across a variety of organisations focusing on ensuring
-        excellent customer experience</span
-      >
+      <span id="description" class="govuk-caption-xl govuk-!-margin-bottom-9">Working across a variety of organisations focusing on ensuring
+        excellent customer experience</span>
     </div>
   </div>
 
@@ -26,20 +24,11 @@ endblock %} {% block content %}
             Start immediately and train on the job
           </h2>
           <p class="govuk-body-l">
-            Trainees earn £<span class="traineeSalary"
-              >{# content in jobs.json #} </span
-            >.<br />
-            Qualify after 1 year and go up to a salary of £<span class="salary"
-              >10,000
+            Trainees earn £<span class="traineeSalary">{# content in jobs.json #} </span>.<br />
+            Qualify after 1 year and go up to a salary of £<span class="salary">10,000
             </span>
           </p>
-          <a
-            href="./routes"
-            role="button"
-            draggable="false"
-            class="govuk-button govuk-!-margin-bottom-9"
-            >See training options</a
-          >
+          <a href="./routes" role="button" draggable="false" class="govuk-button govuk-!-margin-bottom-9">See training options</a>
         </div>
       </div>
       <div class="govuk-grid-row" style="margin-top: 20px;">
@@ -59,9 +48,7 @@ endblock %} {% block content %}
         <div class="vblock">
           <span class="cash"></span>
           <h4 class="govuk-heading-s">Salary</h4>
-          <hr
-            class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
-          />
+          <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3" />
           <ul class="govuk-list">
             <li>
               Trainee £<span class="traineeSalary">
@@ -78,17 +65,13 @@ endblock %} {% block content %}
         <div class="vblock">
           <span class="time"></span>
           <h4 class="govuk-heading-s govuk-!-margin-top-5">Typical hours</h4>
-          <hr
-            class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
-          />
+          <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3" />
           <p class="govuk-body"><span id="hours">{# content in jobs.json #}</span> a week</p>
         </div>
         <div class="vblock">
           <span class="cal"></span>
           <h4 class="govuk-heading-s govuk-!-margin-top-5">You could work</h4>
-          <hr
-            class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
-          />
+          <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3" />
           <p id="lifestyle" class="govuk-body">{# content in jobs.json #}</p>
         </div>
       </div>
@@ -104,7 +87,11 @@ endblock %} {% block content %}
   // Load all content
 
   // get data from nunjucks
-  var data = {{data | dump | safe}};
+  var data = {
+    {
+      data | dump | safe
+    }
+  };
 
   // get chosen job from localStorage
   var index = JSON.parse(localStorage.getItem('user'));
@@ -113,12 +100,12 @@ endblock %} {% block content %}
   title.innerText = data[index].name
 
   var salaries = document.getElementsByClassName('salary');
-  Array.from(salaries).map( salary => {
+  Array.from(salaries).map(salary => {
     salary.innerText = data[index].salary
   })
 
   var traineeSalaries = document.getElementsByClassName('traineeSalary');
-  Array.from(traineeSalaries).map( traineeSalary => {
+  Array.from(traineeSalaries).map(traineeSalary => {
     traineeSalary.innerText = data[index].traineeSalary
   })
 
@@ -128,6 +115,5 @@ endblock %} {% block content %}
     list.innerText = learning
     whatyoulllearn.append(list)
   })
-
 </script>
 {% endblock %}
