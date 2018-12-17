@@ -49,19 +49,22 @@ endblock %} {% block content %}
           </p>
           <h3 class="govuk-heading-m">As a trainee you’ll learn:</h3>
           <ul id="whatyoulllearn" class="govuk-list">
-            
+
           </ul>
         </div>
       </div>
     </div>
     <div class="govuk-grid-column-one-third">
       <div class="govuk-grid-row">
-        <div class="vblock">
-          <span class="cash"></span>
+        <div class="govuk-grid-column-one-quarter">
+          <span style="width:55px; height: 55px; background-color:red;background:url('./public/images/pound.svg'); background-position: center; background-size:cover; display: flex;"></span>
+        </div>
+        <div class="govuk-grid-column-three-quarters">
           <h4 class="govuk-heading-s">Salary</h4>
           <hr
             class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
           />
+
           <ul class="govuk-list">
             <li>
               Trainee £<span class="traineeSalary">
@@ -75,16 +78,24 @@ endblock %} {% block content %}
             </li>
           </ul>
         </div>
-        <div class="vblock">
-          <span class="time"></span>
+      </div>
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-quarter">
+          <span style="width:55px; height: 55px; background-color:red;background:url('./public/images/time.svg'); background-position: center; background-size:cover; display: flex;"></span>
+        </div>
+        <div class="govuk-grid-column-three-quarters">
           <h4 class="govuk-heading-s govuk-!-margin-top-5">Typical hours</h4>
           <hr
             class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
           />
           <p class="govuk-body"><span id="hours">{# content in jobs.json #}</span> a week</p>
         </div>
-        <div class="vblock">
-          <span class="cal"></span>
+      </div>
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-quarter">
+          <span style="width:55px; height: 55px; background-color:red;background:url('./public/images/cal.svg'); background-position: center; background-size:cover; display: flex;"></span>
+        </div>
+        <div class="govuk-grid-column-three-quarters">
           <h4 class="govuk-heading-s govuk-!-margin-top-5">You could work</h4>
           <hr
             class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3"
