@@ -1,11 +1,12 @@
 {
   "data": [
     {
-      "name": "Office manager",
+      "name": "Healthcare assistant",
       "app": false,
-      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
-      "jobCount": 55,
-      "salary": 15000,
+      "description": "You’ll provide high-quality and compassionate health and social care for a wide range of people. You could work in the NHS, at a private hospital or nursing home, or in the community. You would be supervised by nurses or other medical staff  and look after patients. ",
+      "jobCount": 300,
+      "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=healthcare%20assistant",
+      "salary": 17500,
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
@@ -50,11 +51,12 @@
       ]
     },
     {
-      "name": "Electrician",
-      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
-      "jobCount": 55,
+      "name": "Plumber",
+      "description": "Plumbers fit and service hot and cold water systems, heating systems and drainage networks.  You could work at a client's house or business.",
+      "jobCount": 50,
+      "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
       "app": true,
-      "salary": 15000,
+      "salary": 25000,
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
@@ -99,9 +101,10 @@
       ]
     },
     {
-      "name": "IT technician",
-      "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
-      "jobCount": 55,
+      "name": "Office manager",
+      "description": "Supporting and engaging with different parts of an organisation and interact with internal or external customers. This could include typing up documents and reports, answering customer enquiries, processing paperwork, ordering supplies, and organising deliveries.",
+      "jobCount": 50,
+      "jobLink": "https://findajob.dwp.gov.uk/search?q=office+manager&w=Greater+Manchester%2C+North+West+England",
       "salary": 15000,
       "app": false,
       "traineeSalary": 11000,

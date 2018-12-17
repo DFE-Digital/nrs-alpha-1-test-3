@@ -58,6 +58,8 @@ Step by step navigation
               <span class="js-step-title">
                 Understand yourself
               </span>
+              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; Completed</span>
+
             </h2>
           </div>
 
@@ -89,14 +91,18 @@ Step by step navigation
               <span class="js-step-title">
                 Study leadership level 2
               </span>
-              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
-          <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-driving-lessons-and-practice-3">
+          <div class="app-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
             <ol class="app-step-nav__list " data-length="4">
               <li class="app-step-nav__list-item js-list-item ">
                 <a data-position="5.4" class="app-step-nav__link js-link" href="./leadership">Find a course </a>
+              </li>
+              <li class="app-step-nav__list-item js-list-item ">
+                <a data-position="6.1" class="app-step-nav__link js-link" href="#">
+                  Apply for funding
+                </a>
               </li>
             </ol>
           </div>
@@ -117,7 +123,6 @@ Step by step navigation
               <span class="js-step-title">
                 Study english level 2
               </span>
-              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
@@ -125,7 +130,14 @@ Step by step navigation
             <ol class="app-step-nav__list " data-length="5">
 
               <li class="app-step-nav__list-item js-list-item ">
-                <a data-position="5.4" class="app-step-nav__link js-link" href="./english">Find a course </a>
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./english">
+                  Find a course
+                </a>
+              </li>
+              <li class="app-step-nav__list-item js-list-item ">
+                <a data-position="6.1" class="app-step-nav__link js-link" href="#">
+                  Apply for funding
+                </a>
               </li>
             </ol>
           </div>
@@ -146,15 +158,20 @@ Step by step navigation
               <span class="js-step-title">
                 Study maths level 2
               </span>
-              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
           <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-book-and-manage-your-theory-test-5">
             <ol class="app-step-nav__list " data-length="5">
               <li class="app-step-nav__list-item js-list-item ">
-                <a data-position="5.4" class="app-step-nav__link js-link" href="./maths">Find a course </a>
-
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./maths">
+                  Find a course
+                </a>
+              </li>
+              <li class="app-step-nav__list-item js-list-item ">
+                <a data-position="6.1" class="app-step-nav__link js-link" href="#">
+                  Apply for funding
+                </a>
               </li>
             </ol>
           </div>
@@ -173,7 +190,6 @@ Step by step navigation
               <span class="js-step-title">
                 Enrol in an apprenticeship
               </span>
-              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
@@ -257,6 +273,14 @@ Step by step navigation
     Array.from(title).map(title => {
       title.innerText = data[index].name
     })
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function(){
+      var buttons = document.getElementsByClassName('app-step-nav__button');
+      eventFire(buttons[2], 'click');
+    }, false);
 
 </script>
 {% endblock %}

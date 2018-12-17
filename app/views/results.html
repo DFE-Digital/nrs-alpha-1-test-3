@@ -60,6 +60,7 @@
           </fieldset>
         </div>
         <div class="govuk-grid-column-three-quarters">
+
           {% for job in data %}
 
           <article class="govuk-!-margin-bottom-9">
@@ -68,15 +69,15 @@
             </h2>
             <p class="govuk-body">{{- job.description | safe }}</p>
             <ul class="govuk-list">
-              <li>there are&nbsp;{{- job.jobCount | safe }} jobs near Oldham
+              <li><a href="{{- job.jobLink | safe }}">see over&nbsp;{{- job.jobCount | safe }}&nbsp;jobs in Greater Manchester</a>
               </li>
               <li>
                 average salary is &pound;{{- job.salary | safe }}
               </li>
               <li>
-                you could work&nbsp;{{- job.hours | safe }} hours per week</li>
+                you could work&nbsp;{{- job.hours | safe }} hours per week
+              </li>
             </ul>
-            <a onclick="save({{loop.index}})" class="govuk-button"  href="./step-by-step-2">See training options</a>
           </article>
 
           {%- endfor %}
