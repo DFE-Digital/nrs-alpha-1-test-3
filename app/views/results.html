@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="govuk-grid-row govuk-!-margin-top-6">
-        <div class="govuk-grid-column-one-quarter">
+        <div class="govuk-grid-column-one-quarter govuk-!-margin-bottom-9">
           <h1 class="govuk-heading-m">Sort by</h1>
           <fieldset class="govuk-fieldset">
             <div class="govuk-radios">
@@ -76,7 +76,7 @@
               <li>
                 you could work&nbsp;{{- job.hours | safe }} hours per week</li>
             </ul>
-            <a onclick="save({{loop.index}})" class="govuk-button" href="./routes">See training options</a>
+            <a onclick="save({{loop.index}})" class="govuk-button"  href="./step-by-step-2">See training options</a>
           </article>
 
           {%- endfor %}
