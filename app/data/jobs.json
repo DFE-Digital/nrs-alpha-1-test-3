@@ -2,6 +2,7 @@
   "data": [
     {
       "name": "Office manager",
+      "app": false,
       "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
       "salary": 15000,
@@ -52,6 +53,7 @@
       "name": "Electrician",
       "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
+      "app": true,
       "salary": 15000,
       "traineeSalary": 10000,
       "hours": "35-40",
@@ -101,6 +103,7 @@
       "description": "28 years' experience as a handyman across various local authority, school and NHS organisations.",
       "jobCount": 55,
       "salary": 15000,
+      "app": false,
       "traineeSalary": 11000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",

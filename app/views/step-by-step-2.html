@@ -35,15 +35,15 @@ Step by step navigation
   <div class="govuk-grid-column-two-thirds">
 
     <h1 class="govuk-heading-l">
-      Retrain to be a Business Administrator: step by step
+      Retrain to be a <span class="title"></span>: step by step
     </h1>
 
     <p>
-      Check what you need to do to retrain to be a Business Administrator.
+      Check what you need to do to retrain to be a <span class="title"></span>.
     </p>
 
     <div id="step-by-step-navigation" class="app-step-nav app-step-nav--large app-step-nav--active" data-show-text="Show" data-hide-text="Hide" data-show-all-text="Show all" data-hide-all-text="Hide all">
-      <ol class="app-step-nav__steps">
+      <ol id="list" class="app-step-nav__steps">
         <li class="app-step-nav__step js-step" id="check-youre-allowed-to-drive">
           <div class="app-step-nav__header js-toggle-panel" data-position="1">
             <h2 class="app-step-nav__title">
@@ -89,13 +89,14 @@ Step by step navigation
               <span class="js-step-title">
                 Study leadership level 2
               </span>
+              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
           <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-driving-lessons-and-practice-3">
             <ol class="app-step-nav__list " data-length="4">
               <li class="app-step-nav__list-item js-list-item ">
-                <a data-position="5.4" class="app-step-nav__link js-link" href="./course">Find a course </a>
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./leadership">Find a course </a>
               </li>
             </ol>
           </div>
@@ -116,6 +117,7 @@ Step by step navigation
               <span class="js-step-title">
                 Study english level 2
               </span>
+              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
@@ -123,7 +125,7 @@ Step by step navigation
             <ol class="app-step-nav__list " data-length="5">
 
               <li class="app-step-nav__list-item js-list-item ">
-                <a data-position="5.4" class="app-step-nav__link js-link" href="./course">Find a course </a>
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./english">Find a course </a>
               </li>
             </ol>
           </div>
@@ -144,24 +146,55 @@ Step by step navigation
               <span class="js-step-title">
                 Study maths level 2
               </span>
+              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
             </h2>
           </div>
 
           <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-book-and-manage-your-theory-test-5">
             <ol class="app-step-nav__list " data-length="5">
               <li class="app-step-nav__list-item js-list-item ">
-                <a data-position="5.4" class="app-step-nav__link js-link" href="./course">Find a course </a>
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./maths">Find a course </a>
+
               </li>
             </ol>
           </div>
         </li>
-        <li class="app-step-nav__step js-step" id="book-and-manage-your-driving-test">
-          <div class="app-step-nav__header js-toggle-panel" data-position="6">
+        <li class="app-step-nav__step js-step" id="apprenticeship">
+          <div class="app-step-nav__header js-toggle-panel" data-position="5">
             <h2 class="app-step-nav__title">
               <span class="app-step-nav__circle app-step-nav__circle--number">
                 <span class="app-step-nav__circle-inner">
                   <span class="app-step-nav__circle-background">
-                    <span class="govuk-visually-hidden">Step</span> 3
+                    3
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Enrol in an apprenticeship
+              </span>
+              <span style="color:grey; font-weight: 200; font-size:0.8em;"> &mdash; just added</span>
+            </h2>
+          </div>
+
+          <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-book-and-manage-your-theory-test-5">
+            <ol class="app-step-nav__list " data-length="5">
+              <li class="app-step-nav__list-item js-list-item ">
+                <a data-position="5.4" class="app-step-nav__link js-link" href="./maths">Find a course </a>
+
+              </li>
+            </ol>
+          </div>
+
+
+        </li>
+        <li class="app-step-nav__step js-step" id="book-and-manage-your-theory-test">
+          <div class="app-step-nav__header js-toggle-panel" data-position="4">
+            <h2 class="app-step-nav__title">
+              <span id="circle" class="app-step-nav__circle app-step-nav__circle--logic">
+                <span class="app-step-nav__circle-inner">
+                  <span id="count" class="app-step-nav__circle-background">
+                    or
                   </span>
                 </span>
               </span>
@@ -190,13 +223,40 @@ Step by step navigation
               </li>
             </ol>
           </div>
-
         </li>
+
+
 
       </ol>
     </div>
 
   </div>
 </div>
+<script type="text/javascript">
 
+    // get data from nunjucks
+    var data = {{ data | dump | safe }};
+
+    // get chosen job from localStorage
+    var index = JSON.parse(localStorage.getItem('user'));
+
+    var title = document.getElementsByClassName('title');
+
+    if(data[index].app != true){
+      var apprenticeship = document.getElementById('apprenticeship');
+      var circle = document.getElementById('circle');
+      var count = document.getElementById('count');
+
+      apprenticeship.parentNode.removeChild(apprenticeship);
+      circle.classList.remove('app-step-nav__circle--logic');
+      circle.classList.add('app-step-nav__circle--number');
+      count.innerText = 3
+
+    }
+
+    Array.from(title).map(title => {
+      title.innerText = data[index].name
+    })
+
+</script>
 {% endblock %}
