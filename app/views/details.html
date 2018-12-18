@@ -21,15 +21,9 @@ endblock %} {% block content %}
     <div class="govuk-grid-column-two-thirds">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
-          <h2 style="text-transform:lowercase;" class="govuk-heading-m">
-            To be <span class="title"></span> you need:
-          </h2>
-          <ul class="govuk-list govuk-list--bullet" id="youllneed">
-
-          </ul>
-          <h2 class="govuk-heading-m">
-            Based on the results from the understand yourself questions you need to both of these do:
-          </h2>
+          <h2 class="govuk-heading-m">What you need to do</h2>
+          <p id="trainingor" class="govuk-body">
+          </p>
           <ul class="govuk-list govuk-list--bullet" >
             <li id="waytotrain1"></li>
           </ul>
@@ -43,7 +37,7 @@ endblock %} {% block content %}
           <ul id="courses" class="govuk-list govuk-list--bullet">
 
           </ul>
-
+          <p id="coursedetail" class="govuk-body"></p>
           <h2 class="govuk-heading-m">
             Learn while you work
           </h2>
@@ -58,6 +52,12 @@ endblock %} {% block content %}
       </div>
       <div class="govuk-grid-row" style="margin-top: 20px;">
         <div class="govuk-grid-column-full">
+          <h2 class="govuk-heading-m">
+            To be <span style="text-transform:lowercase;" class="title"></span> you need:
+          </h2>
+          <ul class="govuk-list govuk-list--bullet" id="youllneed">
+
+          </ul>
           <h2 class="govuk-heading-m">What you’ll do</h2>
           <ul id="whatyoulldo" class="govuk-list govuk-list--bullet">
 
@@ -152,6 +152,8 @@ endblock %} {% block content %}
 
   var anora = document.getElementById('anora');
   anora.innerText = data[index].anora
+  var coursedetail = document.getElementById('coursedetail');
+  coursedetail.innerText = data[index].coursedetail
 
   // var lifestyle = document.getElementById('lifestyle');
   // lifestyle.innerText = data[index].lifestyle
@@ -167,6 +169,9 @@ endblock %} {% block content %}
 
   var coulddothis = document.getElementById('coulddothis');
   coulddothis.innerText = data[index].coulddothis
+
+  var trainingor = document.getElementById('trainingor');
+  trainingor.innerText = data[index].trainingor
 
   var youllneed = document.getElementById('youllneed');
   data[index].youllneed.map(learning => {

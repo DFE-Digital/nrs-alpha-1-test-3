@@ -11,16 +11,18 @@
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
+      "trainingor": "Based on the results from the understand yourself questions. You need to do:",
       "youllneed": ["good english and maths", "social and communication skills", "technical plumbing skills"],
       "waytotrain1": "a number of skills courses before you start the job",
       "andor": "and",
-      "waytotrain2": "a level 3 apprenticeship, learning while you work",
+      "waytotrain2": "a level 3 apprenticeship in plumbing and domestic heating, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3"],
+      "coursedetail": "This could take 4 months to complete part-time. It would fully funded by the government",
       "coulddothis": "You also need to do a level 3 apprenticeship in plumbing and domestic heating. You would:",
       "coulddothisdetails": [
         "be working as a trainee in an organisation while learning the technical skills",
         "have a reduced salary while you work",
-        "take around 18 months to do this"
+        "can take up to 4 years"
       ],
       "whatyoulllearn": [
         "the ability to use, repair and maintain machines and tools",
@@ -53,11 +55,13 @@
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
+      "trainingor": "Based on the results from the understand yourself questions there are two different ways you can train. You need to do:",
       "youllneed": ["good english and maths", "social and communication skills", "technical healthcare skills"],
       "waytotrain1": "a number of skills courses before you start the job",
       "andor": "or",
       "waytotrain2": "a level 5 apprenticeship, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3", "a health and social care college course"],
+      "coursedetail": "This could take 4 months to complete part-time. It would partly funded by the government and would cost you £250",
       "coulddothis": "You could enroll in a level 5 healthcare assistant practitioner apprenticeship. You would:",
       "coulddothisdetails": [
         "be working as a trainee in an organisation while learning the technical skills",
@@ -93,19 +97,21 @@
       "jobCount": 210,
       "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
       "app": true,
-      "salary": 25000,
+      "salary": 22000,
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
+      "trainingor": "hello",
       "youllneed": ["good english and maths", "social and communication skills", "IT skills"],
       "waytotrain1": "a number of skills courses before you start the job",
       "andor": "and",
       "waytotrain2": "a level 3 apprenticeship, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3", "a business administration college course"],
+      "coursedetail": "This could take 4 months to complete part-time. It would partly funded by the government and would cost you £250",
       "coulddothis": "You could enroll in a level 3 business administrator apprenticeship. You would:",
       "coulddothisdetails": [
         "work as a trainee in a business while learning the technical skills",
-        "can take up to 4 years"
+        "can take around 18 months"
       ],
       "whatyoulllearn": [
         "administration skills",
