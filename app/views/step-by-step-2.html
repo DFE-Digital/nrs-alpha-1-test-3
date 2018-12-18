@@ -245,43 +245,59 @@ Step by step navigation
     </div>
 
   </div>
+  <div class="govuk-grid-column-one-third">
+    <h1 class="govuk-heading-m">Get help to choose what's right for you</h1>
+    <ul class="govuk-list">
+      <li>
+        <p>
+          <a href="#">Book a free appointment with a careers advisor</a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="#">Share this page with a friend or family member</a>
+        </p>
+      </li>
+      <li>
+        <p><a href="#">Print this page</a></p>
+      </li>
+    </ul>
+  </div>
 </div>
 <script type="text/javascript">
+  // get data from nunjucks
+  var data = {{data | dump | safe}};
 
-    // get data from nunjucks
-    var data = {{ data | dump | safe }};
+  // get chosen job from localStorage
+  var index = JSON.parse(localStorage.getItem('user'));
 
-    // get chosen job from localStorage
-    var index = JSON.parse(localStorage.getItem('user'));
+  var title = document.getElementsByClassName('title');
 
-    var title = document.getElementsByClassName('title');
+  var anora = document.getElementById('anora');
+  anora.innerText = data[index].anora
 
-    var anora = document.getElementById('anora');
-    anora.innerText = data[index].anora
+  if (data[index].app != true) {
+    var apprenticeship = document.getElementById('apprenticeship');
+    var circle = document.getElementById('circle');
+    var count = document.getElementById('count');
 
-    if(data[index].app != true){
-      var apprenticeship = document.getElementById('apprenticeship');
-      var circle = document.getElementById('circle');
-      var count = document.getElementById('count');
+    apprenticeship.parentNode.removeChild(apprenticeship);
+    circle.classList.remove('app-step-nav__circle--logic');
+    circle.classList.add('app-step-nav__circle--number');
+    count.innerText = 3
 
-      apprenticeship.parentNode.removeChild(apprenticeship);
-      circle.classList.remove('app-step-nav__circle--logic');
-      circle.classList.add('app-step-nav__circle--number');
-      count.innerText = 3
+  }
 
-    }
-
-    Array.from(title).map(title => {
-      title.innerText = data[index].name
-    })
-
+  Array.from(title).map(title => {
+    title.innerText = data[index].name
+  })
 
 
 
-    document.addEventListener('DOMContentLoaded', function(){
-      var buttons = document.getElementsByClassName('app-step-nav__button');
-      eventFire(buttons[2], 'click');
-    }, false);
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var buttons = document.getElementsByClassName('app-step-nav__button');
+    eventFire(buttons[2], 'click');
+  }, false);
 </script>
 {% endblock %}
