@@ -1,7 +1,8 @@
 {
   "data": [
     {
-      "name": "a plumber",
+      "name": "Plumber",
+      "anora": "a",
       "description": "Fit and service hot and cold water systems, heating systems and drainage networks",
       "jobCount": 50,
       "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
@@ -42,7 +43,8 @@
       ]
     },
     {
-      "name": "a healthcare assistant",
+      "name": "Healthcare assistant",
+      "anora": "a",
       "description": "Provide high-quality and compassionate health and social care for a wide range of people",
       "jobCount": 50,
       "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
@@ -85,7 +87,8 @@
       ]
     },
     {
-      "name": "a office administrator",
+      "name": "Office administrator",
+      "anora": "an",
       "description": "Give support to offices by organising meetings, typing documents and updating computer records",
       "jobCount": 50,
       "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",

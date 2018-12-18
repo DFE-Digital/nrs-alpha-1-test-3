@@ -9,7 +9,7 @@ endblock %} {% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
       <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-6">
-        Retrain to be <span class="title">town planning assistant</span>
+        Retrain to be <span id="anora"></span> <span style="text-transform:lowercase;" class="title">town planning assistant</span>
       </h1>
       <span id="description" class="govuk-caption-xl govuk-!-margin-bottom-9">Working across a variety of organisations focusing on ensuring
         excellent customer experience
@@ -21,7 +21,7 @@ endblock %} {% block content %}
     <div class="govuk-grid-column-two-thirds">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
-          <h2 class="govuk-heading-m">
+          <h2 style="text-transform:lowercase;" class="govuk-heading-m">
             To be <span class="title"></span> you need:
           </h2>
           <ul class="govuk-list govuk-list--bullet" id="youllneed">
@@ -149,6 +149,9 @@ endblock %} {% block content %}
 
   var hours = document.getElementById('hours');
   hours.innerText = data[index].hours
+
+  var anora = document.getElementById('anora');
+  anora.innerText = data[index].anora
 
   var lifestyle = document.getElementById('lifestyle');
   lifestyle.innerText = data[index].lifestyle

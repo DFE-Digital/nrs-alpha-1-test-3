@@ -33,11 +33,9 @@ Step by step navigation
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-
     <h1 class="govuk-heading-l">
-      Retrain to be a <span class="title"></span>: step by step
+      Retrain to be <span id="anora"></span> <span style="text-transform:lowercase;" class="title"></span>: step by step
     </h1>
-
     <p>
       Check what you need to do to retrain to be a <span class="title"></span>.
     </p>
@@ -257,6 +255,9 @@ Step by step navigation
     var index = JSON.parse(localStorage.getItem('user'));
 
     var title = document.getElementsByClassName('title');
+
+    var anora = document.getElementById('anora');
+    anora.innerText = data[index].anora
 
     if(data[index].app != true){
       var apprenticeship = document.getElementById('apprenticeship');
