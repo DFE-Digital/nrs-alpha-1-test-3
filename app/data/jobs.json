@@ -1,58 +1,8 @@
 {
   "data": [
     {
-      "name": "Healthcare assistant",
-      "app": false,
-      "description": "You’ll provide high-quality and compassionate health and social care for a wide range of people. You could work in the NHS, at a private hospital or nursing home, or in the community. You would be supervised by nurses or other medical staff  and look after patients. ",
-      "jobCount": 300,
-      "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=healthcare%20assistant",
-      "salary": 17500,
-      "traineeSalary": 10000,
-      "hours": "35-40",
-      "lifestyle": "Monday to friday",
-      "courses": ["Maths Level 3", "English", "Leadership"],
-      "whatyoulldo": "You could work for the government or local authorities, in the private sector for real estate companies, house builders, supermarkets or utility companies, or for environmental or conservation bodies.",
-      "whatyoulllearn": [
-        "preparing reports for internal and external publications",
-        "recording minutes at meetings",
-        "building and managing technical libraries, filing systems and databases",
-        "drawing up plans using computer aided design software",
-        "carrying out data surveys, like traffic impact assessments",
-        "supplying information and data to planners for applications",
-        "recording the progress and outcomes of planning applications",
-        "organising public meetings",
-        "answering enquiries about application procedure"
-      ],
-      "delivery": [
-        {
-          "title": "Online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "6 months",
-          "cost": "£200 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Mostly online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "9 weeks",
-          "cost": "£400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Classroom",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "18 months",
-          "cost": "£1400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        }
-      ]
-    },
-    {
-      "name": "Plumber",
-      "description": "Plumbers fit and service hot and cold water systems, heating systems and drainage networks.  You could work at a client's house or business.",
+      "name": "a plumber",
+      "description": "Fit and service hot and cold water systems, heating systems and drainage networks",
       "jobCount": 50,
       "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
       "app": true,
@@ -60,94 +10,119 @@
       "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
-      "courses": ["Maths Level 3", "English", "Leadership"],
-      "whatyoulldo": "You could work for the government or local authorities, in the private sector for real estate companies, house builders, supermarkets or utility companies, or for environmental or conservation bodies.",
-      "whatyoulllearn": [
-        "preparing reports for internal and external publications",
-        "recording minutes at meetings",
-        "building and managing technical libraries, filing systems and databases",
-        "drawing up plans using computer aided design software",
-        "carrying out data surveys, like traffic impact assessments",
-        "supplying information and data to planners for applications",
-        "recording the progress and outcomes of planning applications",
-        "organising public meetings",
-        "answering enquiries about application procedure."
+      "youllneed": ["good english and maths", "social and communication skills", "technical plumbing skills"],
+      "waytotrain1": "a number of skills courses before you start the job",
+      "andor": "and",
+      "waytotrain2": "a level 3 apprenticeship, learning while you work",
+      "courses": ["english level 2", "maths level 2", "leadership level 4"],
+      "coulddothis": "You also need to do a level 3 apprenticeship in plumbing and domestic heating. You would:",
+      "coulddothisdetails": [
+        "be working as a trainee in an organisation while learning the technical skills",
+        "have a reduced salary while you work",
+        "take around 18 months to do this"
       ],
-      "delivery": [
-        {
-          "title": "Online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "6 months",
-          "cost": "£200 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Mostly online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "9 weeks",
-          "cost": "£400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Classroom",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "18 months",
-          "cost": "£1400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        }
+      "whatyoulllearn": [
+        "the ability to use, repair and maintain machines and tools",
+        "knowledge of building and construction",
+        "to be thorough and pay attention to detail",
+        "knowledge of maths",
+        "to work well with others",
+        "to use your initiative",
+        "to work well with your hands"
+      ],
+      "whatyoulldo": [
+        "measuring and planning to give cost and time estimates",
+        "cutting, bending and joining pipes and fittings",
+        "installing water, drainage and heating systems",
+        "finding and fixing faults",
+        "servicing gas and oil-fired central heating systems and radiators",
+        "installing and fixing domestic appliances like showers and washing machines",
+        "dealing with emergency call-outs like boiler breakdowns or blocked drains",
+        "fitting weather-proof materials, joints and flashings to roofs, chimneys and walls"
       ]
     },
     {
-      "name": "Office manager",
-      "description": "Supporting and engaging with different parts of an organisation and interact with internal or external customers. This could include typing up documents and reports, answering customer enquiries, processing paperwork, ordering supplies, and organising deliveries.",
+      "name": "a healthcare assistant",
+      "description": "Provide high-quality and compassionate health and social care for a wide range of people",
       "jobCount": 50,
-      "jobLink": "https://findajob.dwp.gov.uk/search?q=office+manager&w=Greater+Manchester%2C+North+West+England",
-      "salary": 15000,
-      "app": false,
-      "traineeSalary": 11000,
+      "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
+      "app": true,
+      "salary": 25000,
+      "traineeSalary": 10000,
       "hours": "35-40",
       "lifestyle": "Monday to friday",
-      "courses": ["Maths Level 3", "English", "Leadership"],
-      "whatyoulldo": "",
-      "whatyoulllearn": [
-        "preparing reports for internal and external publications",
-        "recording minutes at meetings",
-        "building and managing technical libraries, filing systems and databases",
-        "drawing up plans using computer aided design software",
-        "carrying out data surveys, like traffic impact assessments",
-        "supplying information and data to planners for applications",
-        "recording the progress and outcomes of planning applications",
-        "organising public meetings",
-        "answering enquiries about application procedure."
+      "youllneed": ["good english and maths", "social and communication skills", "technical healthcare skills"],
+      "waytotrain1": "a number of skills courses before you start the job",
+      "andor": "or",
+      "waytotrain2": "a level 5 apprenticeship, learning while you work",
+      "courses": ["english level 2", "maths level 2", "leadership level 4", "a health and social care college course"],
+      "coulddothis": "You could enroll in a level 5 healthcare assistant practitioner apprenticeship. You would:",
+      "coulddothisdetails": [
+        "be working as a trainee in an organisation while learning the technical skills",
+        "have a reduced salary while you work",
+        "take around 18 months to do this"
       ],
-      "delivery": [
-        {
-          "title": "Online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "6 months",
-          "cost": "£200 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Mostly online",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "9 weeks",
-          "cost": "£400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        },
-        {
-          "title": "Classroom",
-          "description": "Study in your own time either at home or at a local library",
-          "duration": "18 months",
-          "cost": "£1400 (funding available)",
-          "completion": "99%",
-          "employability": "100 learners got employed after this training"
-        }
+      "whatyoulllearn": [
+        "patience and the ability to remain calm in stressful situations",
+        "sensitivity and understanding",
+        "to be thorough and pay attention to detail",
+        "the ability to work well with others",
+        "the ability to accept criticism and work well under pressure",
+        "the ability to work well with your hands",
+        "excellent verbal communication skills",
+        "customer service skills"
+      ],
+      "whatyoulldo": [
+        "helping patients shower and get dressed",
+        "helping people eat",
+        "making beds",
+        "using equipment to lift and move patients",
+        "talking to patients and reassuring them",
+        "helping patients to the toilet",
+        "tidying the ward or patients’ homes",
+        "taking patients' temperature or pulse",
+        "attending meetings with other healthcare professionals"
+      ]
+    },
+    {
+      "name": "a office administrator",
+      "description": "Give support to offices by organising meetings, typing documents and updating computer records",
+      "jobCount": 50,
+      "jobLink": "https://findajob.dwp.gov.uk/search?loc=86397&q=plumber",
+      "app": true,
+      "salary": 25000,
+      "traineeSalary": 10000,
+      "hours": "35-40",
+      "lifestyle": "Monday to friday",
+      "youllneed": ["good english and maths", "social and communication skills", "IT skills"],
+      "waytotrain1": "a number of skills courses before you start the job",
+      "andor": "and",
+      "waytotrain2": "a level 3 apprenticeship, learning while you work",
+      "courses": ["english level 2", "maths level 2", "leadership level 4", "a business administration college course"],
+      "coulddothis": "You could enroll in a level 3 business administrator apprenticeship. You would:",
+      "coulddothisdetails": [
+        "work as a trainee in a business while learning the technical skills",
+        "can take up to 4 years"
+      ],
+      "whatyoulllearn": [
+        "administration skills",
+        "to be thorough and pay attention to detail",
+        "the ability to work well with others",
+        "the ability to work on your own",
+        "sensitivity and understanding",
+        "to be flexible and open to change",
+        "excellent verbal communication skills",
+        "customer service skills"
+      ],
+      "whatyoulldo": [
+        "dealing with queries on the phone, by email and social media",
+        "greeting visitors at reception",
+        "typing letters and reports",
+        "updating computer records",
+        "printing and photocopying",
+        "ordering supplies",
+        "setting up meetings and taking notes during them",
+        "making travel arrangements for staff"
       ]
     }
   ]

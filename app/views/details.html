@@ -9,10 +9,11 @@ endblock %} {% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
       <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-6">
-        Trainee <span id="title">town planning assistant</span>
+        Retrain to be <span class="title">town planning assistant</span>
       </h1>
       <span id="description" class="govuk-caption-xl govuk-!-margin-bottom-9">Working across a variety of organisations focusing on ensuring
-        excellent customer experience</span>
+        excellent customer experience
+      </span>
     </div>
   </div>
 
@@ -21,23 +22,48 @@ endblock %} {% block content %}
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
           <h2 class="govuk-heading-m">
-            Start immediately and train on the job
+            To be <span class="title"></span> you need:
           </h2>
-          <p class="govuk-body-l">
-            Trainees earn £<span class="traineeSalary">{# content in jobs.json #} </span>.<br />
-            Qualify after 1 year and go up to a salary of £<span class="salary">10,000
-            </span>
-          </p>
-          <a href="./step-by-step-2" role="button" draggable="false" class="govuk-button govuk-!-margin-bottom-9">See training options</a>
+          <ul class="govuk-list govuk-list--bullet" id="youllneed">
+
+          </ul>
+          <h2 class="govuk-heading-m">
+            Based on the results from the understand yourself questions you need to both of these do:
+          </h2>
+          <ul class="govuk-list govuk-list--bullet" >
+            <li id="waytotrain1"></li>
+          </ul>
+          <p><strong><span id="andor"></span></strong></p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li id="waytotrain2"></li>
+          </ul>
+          <h2 class="govuk-heading-m">
+            Learn before you start the job
+          </h2>
+          <ul id="courses" class="govuk-list govuk-list--bullet">
+
+          </ul>
+
+          <h2 class="govuk-heading-m">
+            Learn while you work
+          </h2>
+          <p id="coulddothis" class="govuk-body"></p>
+          <ul id="coulddothisdetails" class="govuk-list govuk-list--bullet">
+
+          </ul>
+          <a href="./step-by-step-2" role="button" draggable="false" class="govuk-button govuk-!-margin-bottom-9">
+            See different ways to do this training
+          </a>
         </div>
       </div>
       <div class="govuk-grid-row" style="margin-top: 20px;">
         <div class="govuk-grid-column-full">
           <h2 class="govuk-heading-m">What you’ll do</h2>
-          <p id="whatyoulldo" class="govuk-body">
-          </p>
+          <ul id="whatyoulldo" class="govuk-list govuk-list--bullet">
+
+          </ul>
           <h3 class="govuk-heading-m">As a trainee you’ll learn:</h3>
-          <ul id="whatyoulllearn" class="govuk-list">
+          <ul id="whatyoulllearn" class="govuk-list govuk-list--bullet">
 
           </ul>
         </div>
@@ -103,8 +129,13 @@ endblock %} {% block content %}
   // get chosen job from localStorage
   var index = JSON.parse(localStorage.getItem('user'));
 
-  var title = document.getElementById('title');
-  title.innerText = data[index].name
+  var titles = document.getElementsByClassName('title');
+  Array.from(titles).map(title => {
+    title.innerText = data[index].name
+  })
+
+  var title = document.getElementById('description');
+  title.innerText = data[index].description
 
   var salaries = document.getElementsByClassName('salary');
   Array.from(salaries).map(salary => {
@@ -124,6 +155,46 @@ endblock %} {% block content %}
 
   var whatyoulldo = document.getElementById('whatyoulldo');
   whatyoulldo.innerText = data[index].whatyoulldo
+
+  var waytotrain1 = document.getElementById('waytotrain1');
+  waytotrain1.innerText = data[index].waytotrain1
+
+  var andor = document.getElementById('andor');
+  andor.innerText = data[index].andor
+
+  var waytotrain2 = document.getElementById('waytotrain2');
+  waytotrain2.innerText = data[index].waytotrain2
+
+  var coulddothis = document.getElementById('coulddothis');
+  coulddothis.innerText = data[index].coulddothis
+
+  var youllneed = document.getElementById('youllneed');
+  data[index].youllneed.map(learning => {
+    let list = document.createElement('li');
+    list.innerText = learning
+    youllneed.append(list)
+  })
+
+  var courses = document.getElementById('courses');
+  data[index].courses.map(course => {
+    let list = document.createElement('li');
+    list.innerText = course
+    courses.append(list)
+  })
+
+  var coulddothisdetails = document.getElementById('coulddothisdetails');
+  data[index].coulddothisdetails.map(detail => {
+    let list = document.createElement('li');
+    list.innerText = detail
+    coulddothisdetails.append(list)
+  })
+
+  var whatyoulldo = document.getElementById('whatyoulldo');
+  data[index].whatyoulldo.map(task => {
+    let list = document.createElement('li');
+    list.innerText = task
+    whatyoulldo.append(list)
+  })
 
   var whatyoulllearn = document.getElementById('whatyoulllearn');
   data[index].whatyoulllearn.map(learning => {
