@@ -92,7 +92,7 @@ endblock %} {% block content %}
           </ul>
         </div>
       </div>
-      <div class="govuk-grid-row">
+      <!-- <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-quarter govuk-!-margin-top-9 govuk-!-margin-bottom-6">
           <span style="width:55px; height: 55px; background-color:red;background:url('./public/images/time.svg'); background-position: center; background-size:cover; display: flex;"></span>
         </div>
@@ -111,7 +111,7 @@ endblock %} {% block content %}
           <hr class="govuk-section-break govuk-section-break--visible govuk-!-margin-bottom-3" />
           <p id="lifestyle" class="govuk-body">{# content in jobs.json #}</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="govuk-grid-row">
@@ -147,14 +147,14 @@ endblock %} {% block content %}
     traineeSalary.innerText = data[index].traineeSalary
   })
 
-  var hours = document.getElementById('hours');
-  hours.innerText = data[index].hours
+  // var hours = document.getElementById('hours');
+  // hours.innerText = data[index].hours
 
   var anora = document.getElementById('anora');
   anora.innerText = data[index].anora
 
-  var lifestyle = document.getElementById('lifestyle');
-  lifestyle.innerText = data[index].lifestyle
+  // var lifestyle = document.getElementById('lifestyle');
+  // lifestyle.innerText = data[index].lifestyle
 
   var waytotrain1 = document.getElementById('waytotrain1');
   waytotrain1.innerText = data[index].waytotrain1
