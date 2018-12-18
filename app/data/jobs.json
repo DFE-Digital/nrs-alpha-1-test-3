@@ -17,7 +17,7 @@
       "andor": "and",
       "waytotrain2": "a level 3 apprenticeship in plumbing and domestic heating, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3"],
-      "coursedetail": "This could take 4 months to complete part-time. It would fully funded by the government",
+      "coursedetail": "This could take 4 months to complete part-time. It would be fully funded by the government",
       "coulddothis": "You also need to do a level 3 apprenticeship in plumbing and domestic heating. You would:",
       "coulddothisdetails": [
         "be working as a trainee in an organisation while learning the technical skills",
@@ -61,7 +61,7 @@
       "andor": "or",
       "waytotrain2": "a level 5 apprenticeship, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3", "a health and social care college course"],
-      "coursedetail": "This could take 4 months to complete part-time. It would partly funded by the government and would cost you £250",
+      "coursedetail": "This could take 4 months to complete part-time. It would be partly funded by the government and would cost you £250",
       "coulddothis": "You could enroll in a level 5 healthcare assistant practitioner apprenticeship. You would:",
       "coulddothisdetails": [
         "be working as a trainee in an organisation while learning the technical skills",
@@ -107,7 +107,7 @@
       "andor": "and",
       "waytotrain2": "a level 3 apprenticeship, learning while you work",
       "courses": ["english level 2", "maths level 2", "communication level 3", "a business administration college course"],
-      "coursedetail": "This could take 4 months to complete part-time. It would partly funded by the government and would cost you £250",
+      "coursedetail": "This could take 4 months to complete part-time. It would be partly funded by the government and would cost you £250",
       "coulddothis": "You could enroll in a level 3 business administrator apprenticeship. You would:",
       "coulddothisdetails": [
         "work as a trainee in a business while learning the technical skills",
